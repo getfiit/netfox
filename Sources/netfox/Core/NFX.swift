@@ -20,8 +20,8 @@ let nfxVersion = podPlistVersion() ?? "0"
 let nfxWillOpenNotification = "NFXWillOpenNotification"
 let nfxWillCloseNotification = "NFXWillCloseNotification"
 
-@objc
-open class NFX: NSObject {
+@available(iOSApplicationExtension, unavailable)
+@objc open class NFX: NSObject {
     
     // MARK: - Properties
     
@@ -209,7 +209,9 @@ open class NFX: NSObject {
     
 }
 
+@available(iOSApplicationExtension, unavailable)
 extension NFX {
+	
     fileprivate var presentingViewController: UIViewController? {
         var rootViewController = UIApplication.shared.keyWindow?.rootViewController
 		while let controller = rootViewController?.presentedViewController {
@@ -242,6 +244,7 @@ extension NFX {
     }
 }
 
+@available(iOSApplicationExtension, unavailable)
 extension NFX: UIAdaptivePresentationControllerDelegate {
 
     public func presentationControllerDidDismiss(_ presentationController: UIPresentationController)

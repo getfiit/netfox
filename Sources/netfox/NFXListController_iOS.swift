@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+@available(iOSApplicationExtension, unavailable)
 class NFXListController_iOS: NFXListController, UITableViewDelegate, UITableViewDataSource, UISearchResultsUpdating, UISearchControllerDelegate, DataCleaner {
     // MARK: Properties
     

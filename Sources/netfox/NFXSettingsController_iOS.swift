@@ -8,6 +8,7 @@
 import UIKit
 import MessageUI
 
+@available(iOSApplicationExtension, unavailable)
 class NFXSettingsController_iOS: NFXSettingsController, UITableViewDelegate, UITableViewDataSource, MFMailComposeViewControllerDelegate, DataCleaner {
     
     var tableView: UITableView = UITableView()
