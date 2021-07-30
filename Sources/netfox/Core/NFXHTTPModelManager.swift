@@ -28,6 +28,7 @@ final class NFXHTTPModelManager: NSObject {
         }
     }
     
+	@available(iOSApplicationExtension, unavailable)
     func getModels() -> [NFXHTTPModel] {
         var predicates = [NSPredicate]()
         

@@ -28,7 +28,7 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
   }
 }
 
-
+@available(iOSApplicationExtension, unavailable)
 class NFXDetailsController_iOS: NFXDetailsController, MFMailComposeViewControllerDelegate {
     var infoButton: UIButton = UIButton()
     var requestButton: UIButton = UIButton()
@@ -316,6 +316,7 @@ class NFXDetailsController_iOS: NFXDetailsController, MFMailComposeViewControlle
     
 }
 
+@available(iOSApplicationExtension, unavailable)
 extension NFXDetailsController_iOS: UIActivityItemSource {
     public typealias UIActivityType = UIActivity.ActivityType
     
@@ -333,6 +334,7 @@ extension NFXDetailsController_iOS: UIActivityItemSource {
     
 }
 
+@available(iOSApplicationExtension, unavailable)
 extension NFXDetailsController_iOS: UITextViewDelegate {
     
     func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange) -> Bool {

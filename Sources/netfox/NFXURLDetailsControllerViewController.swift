@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+@available(iOSApplicationExtension, unavailable)
 class NFXURLDetailsController: NFXDetailsController {
     
     override func viewDidLoad() {
@@ -25,6 +26,7 @@ class NFXURLDetailsController: NFXDetailsController {
     
 }
 
+@available(iOSApplicationExtension, unavailable)
 extension NFXURLDetailsController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

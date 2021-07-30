@@ -11,6 +11,7 @@ import UIKit
 public typealias UIEventSubtype = UIEvent.EventSubtype
 #endif
 
+@available(iOSApplicationExtension, unavailable)
 extension UIWindow {
     override open func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         if NFX.sharedInstance().getSelectedGesture() == .shake {
@@ -23,6 +24,7 @@ extension UIWindow {
     }
 }
 
+@available(iOSApplicationExtension, unavailable)
 public extension UIDevice {
     
     class func getNFXDeviceType() -> String {
@@ -155,11 +157,13 @@ public extension UIDevice {
 
 }
 
+@available(iOSApplicationExtension, unavailable)
 protocol DataCleaner {
 
     func clearData(sourceView: UIView, originingIn sourceRect: CGRect?, then: @escaping () -> ())
 }
 
+@available(iOSApplicationExtension, unavailable)
 extension DataCleaner where Self: UIViewController {
 
     func clearData(sourceView: UIView, originingIn sourceRect: CGRect?, then: @escaping () -> ()) {

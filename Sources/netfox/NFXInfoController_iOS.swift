@@ -7,6 +7,7 @@
 
 import UIKit
 
+@available(iOSApplicationExtension, unavailable)
 class NFXInfoController_iOS: NFXInfoController {
     
     var scrollView: UIScrollView = UIScrollView()

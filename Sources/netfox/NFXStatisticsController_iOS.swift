@@ -6,7 +6,8 @@
 //
 
 import UIKit
-    
+
+@available(iOSApplicationExtension, unavailable)
 class NFXStatisticsController_iOS: NFXStatisticsController {
 
     var scrollView: UIScrollView = UIScrollView()

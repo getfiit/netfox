@@ -7,8 +7,8 @@
 
 import Foundation
 
-@objc
-open class NFXProtocol: URLProtocol {
+@available(iOSApplicationExtension, unavailable)
+@objc open class NFXProtocol: URLProtocol {
     static let nfxInternalKey = "com.netfox.NFXInternal"
     
     private lazy var session: URLSession = { [unowned self] in

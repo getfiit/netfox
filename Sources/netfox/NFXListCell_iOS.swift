@@ -12,6 +12,7 @@ import UIKit
 typealias UITableViewCellStyle = UITableViewCell.CellStyle
 #endif
 
+@available(iOSApplicationExtension, unavailable)
 class NFXListCell: UITableViewCell {
     
     let padding: CGFloat = 5
