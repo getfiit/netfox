@@ -12,6 +12,7 @@ enum NFXBodyType: Int {
     case response = 1
 }
 
+@available(iOSApplicationExtension, unavailable)
 class NFXGenericBodyDetailsController: NFXGenericController {
     var bodyType: NFXBodyType = NFXBodyType.response
 }

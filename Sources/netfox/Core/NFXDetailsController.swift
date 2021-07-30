@@ -26,7 +26,7 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
   }
 }
 
-
+@available(iOSApplicationExtension, unavailable)
 class NFXDetailsController: NFXGenericController {
 
     enum EDetailsView {

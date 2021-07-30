@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+@available(iOSApplicationExtension, unavailable)
 class NFXRawBodyDetailsController: NFXGenericBodyDetailsController {
     var bodyView: UITextView = UITextView()
     private var copyAlert: UIAlertController?

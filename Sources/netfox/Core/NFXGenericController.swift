@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+@available(iOSApplicationExtension, unavailable)
 class NFXGenericController: NFXViewController {
     var selectedModel: NFXHTTPModel = NFXHTTPModel()
 

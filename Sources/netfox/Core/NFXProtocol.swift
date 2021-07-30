@@ -66,6 +66,7 @@ import Foundation
     }
 }
 
+@available(iOSApplicationExtension, unavailable)
 extension NFXProtocol: URLSessionDataDelegate {
     public func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceive data: Data) {
         responseData?.append(data)

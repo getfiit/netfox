@@ -7,6 +7,7 @@
 
 import Foundation
 
+@available(iOSApplicationExtension, unavailable)
 class NFXListController: NFXGenericController {
 
     var tableData = [NFXHTTPModel]()

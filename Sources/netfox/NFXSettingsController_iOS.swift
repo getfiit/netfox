@@ -68,7 +68,7 @@ class NFXSettingsController_iOS: NFXSettingsController, UITableViewDelegate, UIT
     }
     
     @objc func nfxURLButtonPressed() {
-        UIApplication.shared.openURL(URL(string: nfxURL)!)
+        let _ = UIApplication.shared.openURL(URL(string: nfxURL)!)
     }
     
     @objc func infoButtonPressed() {

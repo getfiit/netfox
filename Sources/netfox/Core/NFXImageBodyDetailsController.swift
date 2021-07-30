@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+@available(iOSApplicationExtension, unavailable)
 class NFXImageBodyDetailsController: NFXGenericBodyDetailsController {
     var imageView: UIImageView = UIImageView()
     

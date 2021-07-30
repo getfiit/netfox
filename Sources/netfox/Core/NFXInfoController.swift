@@ -7,6 +7,7 @@
     
 import Foundation
 
+@available(iOSApplicationExtension, unavailable)
 class NFXInfoController: NFXGenericController {
     
     func generateInfoString(_ ipAddress: String) -> NSAttributedString {

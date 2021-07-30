@@ -18,6 +18,7 @@ public enum HTTPModelShortType: String {
     static let allValues = [JSON, XML, HTML, IMAGE, OTHER]
 }
 
+@available(iOSApplicationExtension, unavailable)
 extension NFXColor {
     convenience init(red: Int, green: Int, blue: Int) {
         assert(red >= 0 && red <= 255, "Invalid red component")
@@ -215,6 +216,7 @@ extension Date {
     }
 }
 
+@available(iOSApplicationExtension, unavailable)
 class NFXDebugInfo {
     
     class func getNFXAppName() -> String {
@@ -299,6 +301,7 @@ extension String {
     }
 }
 
+@available(iOSApplicationExtension, unavailable)
 @objc public extension URLSessionConfiguration {
     private static var firstOccurrence = true
     
@@ -317,6 +320,7 @@ extension String {
     }
 }
  
+@available(iOSApplicationExtension, unavailable)
 @objc private extension URLSessionConfiguration {
     private static func swizzleProtocolSetter() {
         let instance = URLSessionConfiguration.default

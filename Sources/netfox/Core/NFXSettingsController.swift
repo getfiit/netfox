@@ -7,6 +7,7 @@
     
 import Foundation
 
+@available(iOSApplicationExtension, unavailable)
 class NFXSettingsController: NFXGenericController {
     // MARK: Properties
 
